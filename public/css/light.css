@@ -1,0 +1,172 @@
+/*
+============================================================
+  LANDING PAGES / IMPACT
+------------------------------------------------------------
+  Created by: FYPixels
+  http://themeforest.net/user/FYPixels
+============================================================
+*/
+
+
+body{ background: #181818; color: #444444; }
+
+
+/*
+============================================================
+  HEADER
+============================================================
+*/
+
+#header{ color: #757575; }
+#header .phone{ color: #757575; }
+#header .phone .icon{ background: url(../images/phone-iconInv.png) no-repeat; background-position: center left;  }
+
+/*
+============================================================
+  SLIDE
+============================================================
+*/
+
+/* ----- SLIDE 1 ----- */
+#slider .slide-1{ background: #181818; }
+
+/*content*/
+#slider .slide-1 .content h1{ color: #E9E9E9; }
+#slider .slide-1 .content p{ color: #757575; }
+
+
+/* ----- SLIDE 2 ----- */
+#slider .slide-2{ background: #181818; color: #000000; }
+
+/*content*/
+#slider .slide-2 .content .description{ color: #757575; }
+#slider .slide-2 .content h1{ color: #e9e9e9; }
+
+
+/* ----- SLIDE 3 ----- */
+#slider .slide-3{ background: #181818; color: #000000; }
+
+/*content*/
+#slider .slide-3 .content .description{ color: #757575; }
+#slider .slide-3 .content .description .selected{ background: #202020; }
+#slider .slide-3 .content h1{ color: #E9E9E9; }
+
+/*image*/
+#slider .slide-3 .image{ background: url('../images/slide/slide-ptrInv.jpg'); border-color: #212121; }
+#slider .slide-3 img{ border-color: #191919; }
+
+
+/* ----- SLIDE 4 ----- */
+#slider .slide-4{ background: #181818; color: #000000; }
+
+/*content*/
+#slider .slide-4 .content .description{ color: #757575; }
+#slider .slide-4 .content .description .selected{ background: #202020;}
+#slider .slide-4 .content h1{ font-size: 200%; color: #E9E9E9; }
+
+/*image*/
+#slider .slide-4 .image{ background: url('../images/slide/slide-ptrInv.jpg'); border-color: #212121; }
+#slider .slide-4 img{ border-color: #191919; }
+
+
+
+/*
+============================================================
+  CONTENT
+============================================================
+*/
+
+#content{background: #E9E9E9; color: #000000; }
+#content .section-title h1{ color: #444444; }
+#content .section-title p{ color: #757575; }
+#content .section-title .spText { }
+
+/* ----- FEATURES ----- */
+#content .box-feature-first h1, #content .box-feature-middle h1, #content .box-feature-last h1{ color: #444444; }
+#content .box-feature-first:hover, #content .box-feature-middle:hover, #content .box-feature-last:hover{ background: #e0e0e0; border-color: #d9d9d9; }
+#content .box-feature-first p, #content .box-feature-middle p, #content .box-feature-last p{ color: #757575; }
+
+/* ----- PRICING TABLE ----- */
+#pricing-table .plan{ color: #757575; }
+#pricing-table .plan ul li{ border-color: #E9E9E9; }
+#pricing-table .plan .header{ background: #E0E0E0; color: #757575; }
+
+/*plan 1, plan 2, plan 3*/
+#pricing-table #plan-1, #pricing-table #plan-2, #pricing-table #plan-3{ background: #F9F9F9 url(../images/pricingtable-divider2.png) repeat-y; background-position: right; }
+
+/*plan 1*/
+#pricing-table #plan-1 .header h2, #pricing-table #plan-1 strong{ color: #714000; }
+
+/*plan 2*/
+#pricing-table #plan-2 .header h2, #pricing-table #plan-2 strong{ color: #7d0000; }
+
+/*plan 3*/
+#pricing-table #plan-3 .header h2, #pricing-table #plan-3 strong{ color: #026000; }
+
+/*plan 4*/
+#pricing-table #plan-4{ background: #F9F9F9; }
+#pricing-table #plan-4 .header h2, #pricing-table #plan-4 strong{ color: #006a7a; }
+
+/* ----- SCREENSHOTS ----- */
+#content .thumbnail { background: #FFFFFF; border-color: #D9D9D9; }
+
+/* ----- CALL TO ACTION ----- */
+#content .call-to-action{ border-color: #000000; background: #1D1D1D; }
+
+/*promo*/
+#content .call-to-action .promo h1{ color: #DEDEDE; }
+#content .call-to-action .promo p{ color: #757575; }
+
+
+/*
+============================================================
+  FOOTER
+============================================================
+*/
+
+/*nav*/
+#footer .nav span{ color: #444444; }
+#footer .nav a:link, #footer .nav a, #footer .nav a:visited, #footer .nav a:hover, #footer .nav a, #footer .nav a:active{ color: #757575; }
+
+/*legal*/
+#footer .legal .symbol { background: none !important; }
+#footer .legal li{ border-color: #383838; }
+#footer .legal a:link, #footer .legal a:visited, #footer .legal a:hover, #footer .legal a:active{ color: #757575; }
+#footer .legal a:hover, #footer .legal a:active{ border-color: #757575; }
+
+/*
+============================================================
+  ABOUT US
+============================================================
+*/
+
+#about-us .section-title h1{ color: #FFFFFF; }
+#about-us .section-title p{ color: #757575; }
+#about-us { color: #FFFFFF; }
+
+/*
+============================================================
+  KEEP UP-TO-DATE
+============================================================
+*/
+
+#updates { color: #FFFFFF; }
+#updates .section-title h1{ color: #FFFFFF; }
+#updates .section-title p{ color: #757575; }
+#updates h2{ color: #DEDEDE; }
+#updates h3{ color: #757575; }
+#updates .section-title li{ color: #757575; }
+#updates .content .divider{ background: url('../images/divider.png'); }
+
+/*
+============================================================
+  GET IN TOUCH
+============================================================
+*/
+
+#get-in-touch .section-title h1{ color: #FFFFFF; }
+#get-in-touch .section-title p{ color: #757575; }
+#get-in-touch .field, #get-in-touch .message, #get-in-touch .address{ color: #757575; }
+#get-in-touch input, #get-in-touch textarea{ background: #FFFFFF; color: #000000; }
+#get-in-touch .contact-info a:link, #get-in-touch .contact-info a:visited, #get-in-touch .contact-info a:hover, #get-in-touch .contact-info a:active{ color: #FFFFFF; }
+#get-in-touch .divider{ background: url('../images/divider.png'); }
