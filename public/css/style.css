@@ -76,7 +76,7 @@ ul.deletelist{ list-style-image: url(../images/list-cross.png); }
 #slider .slide-1 .content p{ font-family: 'Terminal Dosis', sans-serif; font-size: 18px; }
 
 /*image*/
-#slider .slide-1 .image{ background: url('../images/slide/slide1-image.png') no-repeat; margin-top: 20px; width: 950px; height: 275px; }
+#slider .slide-1 .image{ background: url('../images/slide1.png') no-repeat; margin-top: 20px; width: 950px; height: 275px; }
 
 
 /* ----- SLIDE 2 ----- */
