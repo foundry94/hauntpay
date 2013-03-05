@@ -7,8 +7,17 @@
 ============================================================
 */
 
+html {
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
-body{ font-family: Arial, sans-serif; font-size: 16px; }
+body{ 
+  font-family: Arial, sans-serif; font-size: 16px; 
+}
 h1, h2, h3, p{ margin: 0; padding: 0; }
 
 /*
@@ -91,7 +100,7 @@ ul.deletelist{ list-style-image: url(../images/list-cross.png); }
 
 /*image*/
 #slider .slide-2 .image{ margin: 0; padding: 0 }
-#slider .slide-2 .image img{ width: 390px; height: 353px; }
+#slider .slide-2 .image img{ margin-left: 20px; }
 
 
 /* ----- SLIDE 3 ----- */
@@ -105,8 +114,8 @@ ul.deletelist{ list-style-image: url(../images/list-cross.png); }
 #slider .slide-3 .content h1{ font-size: 200%; }
 
 /*image*/
-#slider .slide-3 .image{ margin: 0; border: 1px solid; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
-#slider .slide-3 img{ margin: 20px; border: 1px solid; width: 328px; height: 248px; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; }
+#slider .slide-3 .image{ margin: 0; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+#slider .slide-3 img{ margin: -47px 20px 20px 20px; border-radius: 8px; -moz-border-radius: 8px; -webkit-border-radius: 8px; }
 
 
 

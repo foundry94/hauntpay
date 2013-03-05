@@ -8,7 +8,7 @@
 */
 
 
-body{ background: #181818; color: #444444; }
+body{ background: rgba(24,24,24,0.8); color: #444444; }
 
 
 /*
@@ -28,7 +28,7 @@ body{ background: #181818; color: #444444; }
 */
 
 /* ----- SLIDE 1 ----- */
-#slider .slide-1{ background: #181818; }
+#slider .slide-1{  }
 
 /*content*/
 #slider .slide-1 .content h1{ color: #E9E9E9; }
@@ -36,7 +36,7 @@ body{ background: #181818; color: #444444; }
 
 
 /* ----- SLIDE 2 ----- */
-#slider .slide-2{ background: #181818; color: #000000; }
+#slider .slide-2{ color: #000000; }
 
 /*content*/
 #slider .slide-2 .content .description{ color: #757575; }
@@ -44,7 +44,7 @@ body{ background: #181818; color: #444444; }
 
 
 /* ----- SLIDE 3 ----- */
-#slider .slide-3{ background: #181818; color: #000000; }
+#slider .slide-3{ color: #000000; }
 
 /*content*/
 #slider .slide-3 .content .description{ color: #757575; }
@@ -52,8 +52,8 @@ body{ background: #181818; color: #444444; }
 #slider .slide-3 .content h1{ color: #E9E9E9; }
 
 /*image*/
-#slider .slide-3 .image{ background: url('../images/slide/slide-ptrInv.jpg'); border-color: #212121; }
-#slider .slide-3 img{ border-color: #191919; }
+#slider .slide-3 .image{  }
+#slider .slide-3 img{  }
 
 
 /* ----- SLIDE 4 ----- */
@@ -76,14 +76,14 @@ body{ background: #181818; color: #444444; }
 ============================================================
 */
 
-#content{background: #E9E9E9; color: #000000; }
-#content .section-title h1{ color: #444444; }
+#content{color: #000000; }
+#content .section-title h1{ color: #E9E9E9; }
 #content .section-title p{ color: #757575; }
 #content .section-title .spText { }
 
 /* ----- FEATURES ----- */
-#content .box-feature-first h1, #content .box-feature-middle h1, #content .box-feature-last h1{ color: #444444; }
-#content .box-feature-first:hover, #content .box-feature-middle:hover, #content .box-feature-last:hover{ background: #e0e0e0; border-color: #d9d9d9; }
+#content .box-feature-first h1, #content .box-feature-middle h1, #content .box-feature-last h1{ color: #E9E9E9; }
+#content .box-feature-first:hover, #content .box-feature-middle:hover, #content .box-feature-last:hover{ background: rgba(24,24,24,0.8); border-color: #d9d9d9; }
 #content .box-feature-first p, #content .box-feature-middle p, #content .box-feature-last p{ color: #757575; }
 
 /* ----- PRICING TABLE ----- */
