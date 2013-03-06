@@ -22,7 +22,7 @@ $(function(){
     return false;
   });
   slider.reloadShow();
-});	
+});
 
 /*
 ============================================================
@@ -86,4 +86,38 @@ jQuery(document).ready(function () {
 
 jQuery(document).ready(function () {
     jQuery('#nav-03').colorbox({ inline:true, href:"#get-in-touch" });
+});
+
+
+/*
+============================================================
+  WUFOO Form
+============================================================
+*/
+
+$(function(){
+
+	/* This is basic - uses default settings */
+
+	$("a.contact_form").fancybox({
+    'transitionIn'	:	'elastic',
+		'transitionOut'	:	'elastic'
+  });
+
+	///* Using custom settings */
+	//
+	//$("a#inline").fancybox({
+	//	'hideOnContentClick': true
+	//});
+
+	///* Apply fancybox to multiple items */
+	//
+	//$("a.group").fancybox({
+	//	'transitionIn'	:	'elastic',
+	//	'transitionOut'	:	'elastic',
+	//	'speedIn'		:	600,
+	//	'speedOut'		:	200,
+	//	'overlayShow'	:	false
+	//});
+
 });

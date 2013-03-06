@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<link rel="stylesheet" href="css/light.css" type="text/css" /> 
 	<link rel="stylesheet" href="css/colorbox.css" type="text/css" /> 
+	<link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" /> 
 	<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:400,300,200' rel='stylesheet' type='text/css'>
 	<script src="js/jquery.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -20,6 +21,7 @@
 	<script src="fonts/Terminal_Dosis_300.font.js" type="text/javascript"></script>
 	<script src="js/jquery.colorbox-min.js" type="text/javascript"></script>
 	<script src="js/custom.js" type="text/javascript"></script>
+	<script src="fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -28,10 +30,9 @@
 <div id="side">
 	<div id="sidebar">
 		<ul>
-			<li class="first facebook"><a href=http://www.facebook.com/hauntpay" target="blank" title="Facebook"> </a></li>
-			<li class="twitter"><a href="http://www.twitter.com/hauntpay" target="blank" title="Follow us on Twitter"> </a></li>
-			<li class="googleplus"><a href="#" title="Google+"> </a></li>
-			<li class="last rss"><a href="#" title="Subscribe to RSS Feed"> </a></li>
+			<li class="first facebook"><a href=http://facebook.hauntpay.com" target="blank" title="Facebook"> </a></li>
+			<li class="twitter"><a href="http://twitter.hauntpay.com" target="blank" title="Follow us on Twitter"> </a></li>
+			<li class="googleplus"><a href="http://google.hauntpay.com" title="Google+"> </a></li>
 		</ul>
 	</div>
 </div>
@@ -99,7 +100,7 @@
 					<div class="content">
 						<h1>On average, ticket & merchandise sales are 30% higher at haunts accepting credit cards.</h1>
 						<p class="description">We have a zombie-proof payment solution to keep you focused on the fun stuff: scaring the heck out of your patrons. Get Started Now.</p>
-						<p class="p-button"><a class="btn btn-danger" href="https://coremerchant.wufoo.com/forms/hauntpay-get-started-today/">Learn More<i class="icon-arrow-right icon-white"></i></a></p>
+						<p class="p-button"><a class="contact_form btn btn-danger" href="#wufoo_form">Learn More<i class="icon-arrow-right icon-white"></i></a></p>
 					</div>
 				</div>
 				<div class="span6">
@@ -212,7 +213,7 @@
         solution so simple a zombie could use it.</p>
 			</div>
 			<div class="event">
-				<a href="https://coremerchant.wufoo.com/forms/hauntpay-get-started-today/" class="btn btn-large btn-success">
+        <a id="contact_form" href="#wufoo_form" class="btn btn-large btn-success contact_form">
 				 Contact Us
 				</a>
 			</div>
@@ -220,6 +221,16 @@
 		<!-- ___ End of CALL TO ACTION ___ -->
 	</div>
 </div>
+
+
+<!-- ### Start of WUFOO IFRAME FORM ### -->
+<div id="wufoo_form" style="display:none; background:black;">
+  <img src="/images/logo1.png"></img>
+  <iframe height="800" width="400" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://coremerchant.wufoo.com/embed/w7x2x3/"><a href="https://coremerchant.wufoo.com/forms/w7x2x3/">Fill out my Wufoo form!</a></iframe>
+</div>
+<!-- ### End of WUFOO IFRAME FORM ### -->
+
+
 <!-- ### End of CONTENT ### -->
 
 <!-- ### FOOTER ### -->
